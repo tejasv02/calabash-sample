@@ -89,13 +89,20 @@ public class Pickerjavatest {
       this.capabilities = new ArrayList<CalabashCapabilities>();
       this.capabilities.add(capability);
       this.driverHost = driverHost;
-      this.mobileAppPath = "notNeeded";
-      this.mobileTestAppPath = "notNeeded";
-      this.driverMaxSession = 1;
+      
+      this.driverMaxSession = 5;
       this.driverPort = driverPort;
-      this.driverRegistrationEnabled = false;
-      this.installApksEnabled = false;
       this.cleanSavedUserDataEnabled = true;
+      
+      //Register with the Selenium Grid hub @ specified hubHost:hubPort
+      this.driverRegistrationEnabled = true;
+      this.hubHost="127.0.0.1";
+      this.hubPort=4444;
+      
+      //This defines what needs to be installed and from where, if set to TRUE
+      this.installApksEnabled = true;
+      this.mobileAppPath = " OriginCasual-debug_debug.apk";
+      this.mobileTestAppPath = "9a1bdb8a5d4ec74ff9cb7502168bf041_0.3.8.apk";
     }
   }
 }
