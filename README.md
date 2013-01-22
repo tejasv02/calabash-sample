@@ -4,10 +4,9 @@ calabash-sample
 Discussion and help - https://groups.google.com/forum/?fromgroups=#!topic/calabash-android/Elm-HzlXULw
 
 Calabash android installation:
-https://github.com/calabash/calabash-android/
-
-Useful Links -
 https://github.com/calabash-driver/calabash-driver/wiki/Setup
+
+This project is cloned from - https://github.com/calabash-driver/gdg-devfest-zrh
 
 Installation: 
 Test ng pluing to eclipse
@@ -34,8 +33,9 @@ C:\Users\xxx\workspace\greenhouse-android-test\lib>java -Dfile.encoding=UTF-8 -c
 
 
 
-
 PROBLEMS THAT MIGHT NEED TO BE FIXED:
+I will try to put some help on problems face at this blog - http://mytechlifez.blogspot.co.uk/2013/01/calabash-android-driver-java.html
+Hope that  helps
 
 M2_REPO need to be added to eclipse -> windows -> preferences -> java -> buildpath
 M2_REPO - C:\Users\username\.m2\repository
