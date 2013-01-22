@@ -1,0 +1,36 @@
+{
+    "capabilities":[
+    {
+        "deviceName":"device",
+        "browserName":"calabash-android",
+        "maxInstances":1,
+        "locale":"en_GB",
+        "deviceId":"HT115RX16049",
+        "sdkVersion":"2.2",
+        "appMainActivity":"com.sai.samples.views.PickerViewSample",
+        "aut":"PickerViews",
+  "appBasePackage":"com.sai.samples.views"
+    },{
+        "deviceName":"device",
+        "browserName":"calabash-android",
+        "maxInstances":1,
+        "locale":"en_GB",
+        "deviceId":"emulator-5554",
+        "sdkVersion":"2.3.3",
+        "appMainActivity":"com.sai.samples.views.PickerViewSample",
+        "aut":"PickerViews",
+  "appBasePackage":"sh.calaba.android.test"
+    }],
+    "configuration":{
+        "register":true,
+        "autTestApk":"e1f92f34419e6eb766be5d2e4ff0c3e1_0.3.8.apk",
+        "autApk":"PickerViews.apk",
+        "installApks":"false",
+        "cleanSavedUserData":"true",
+        "port":4445,
+        "host":"localhost",
+        "maxSession":2,
+        "hubHost":"127.0.0.1",
+        "hubPort":4444
+    }
+}

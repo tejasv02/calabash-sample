@@ -1,0 +1,143 @@
+ - 11:30:07 DEBUG sh.calaba.driver.server.CalabashAndroidServer (line:96) - The CalabashAndroidServer is initialized.
+ - 11:30:09 DEBUG sh.calaba.driver.server.servlet.CalabashServlet (line:73) - Got called with Reuqest URI: /wd/hub/session
+ - 11:30:09 DEBUG sh.calaba.driver.server.servlet.CalabashServlet (line:74) - Got generic command reuqest: NEW_SESSION
+ - 11:30:50 DEBUG sh.calaba.driver.server.CalabashAndroidServer (line:96) - The CalabashAndroidServer is initialized.
+ - 11:30:52 DEBUG sh.calaba.driver.server.servlet.CalabashServlet (line:73) - Got called with Reuqest URI: /wd/hub/session
+ - 11:30:52 DEBUG sh.calaba.driver.server.servlet.CalabashServlet (line:74) - Got generic command reuqest: NEW_SESSION
+ - 11:34:11 DEBUG sh.calaba.driver.server.CalabashAndroidServer (line:96) - The CalabashAndroidServer is initialized.
+ - 11:34:13 DEBUG sh.calaba.driver.server.servlet.CalabashServlet (line:73) - Got called with Reuqest URI: /wd/hub/session
+ - 11:34:13 DEBUG sh.calaba.driver.server.servlet.CalabashServlet (line:74) - Got generic command reuqest: NEW_SESSION
+ - 11:44:05 DEBUG sh.calaba.driver.server.CalabashAndroidServer (line:96) - The CalabashAndroidServer is initialized.
+ - 11:44:05 DEBUG sh.calaba.driver.server.CalabashAndroidServer (line:96) - The CalabashAndroidServer is initialized.
+ - 11:44:25 DEBUG sh.calaba.driver.server.CalabashAndroidServer (line:96) - The CalabashAndroidServer is initialized.
+ - 12:22:24 DEBUG sh.calaba.driver.server.CalabashAndroidServer (line:96) - The CalabashAndroidServer is initialized.
+ - 12:22:28 DEBUG sh.calaba.driver.server.CalabashAndroidServer (line:96) - The CalabashAndroidServer is initialized.
+ - 12:25:55 DEBUG sh.calaba.driver.server.CalabashAndroidServer (line:96) - The CalabashAndroidServer is initialized.
+ - 12:25:59 DEBUG sh.calaba.driver.server.CalabashAndroidServer (line:96) - The CalabashAndroidServer is initialized.
+ - 12:26:41 DEBUG sh.calaba.driver.server.CalabashAndroidServer (line:96) - The CalabashAndroidServer is initialized.
+ - 12:26:43 DEBUG sh.calaba.driver.server.servlet.CalabashServlet (line:73) - Got called with Reuqest URI: /wd/hub/session
+ - 12:26:43 DEBUG sh.calaba.driver.server.servlet.CalabashServlet (line:74) - Got generic command reuqest: NEW_SESSION
+ - 12:26:43 DEBUG sh.calaba.driver.server.CalabashProxy (line:101) - reqqested capa: Calabash Capabilities [raw={appBasePackage=com.sai.samples.views, deviceName=emulator, browserName=calabash-android, maxInstances=1, locale=en_EN, appMainActivity=com.sai.samples.views.PickerViewSample, deviceId=emulator-5554, sdkVersion=4.0.3, aut=greenhouse-android}, getLocale()=en_EN, getSDKVersion()=4.0.3, getDeviceName()=emulator, getAppMainActivity()=com.sai.samples.views.PickerViewSample, getAppBasePackage()=com.sai.samples.views, getDeviceId()=emulator-5554]
+ - 12:26:43 DEBUG sh.calaba.utils.DefaultAdbConnection (line:73) - Process 'about to delete the saved app data of the app with the base package: com.sai.samples.views' is about to start: C:\android\platform-tools\adb.exe	-s	emulator-5554	shell	pm	clear	com.sai.samples.views	
+ - 12:26:46 DEBUG sh.calaba.utils.DefaultAdbConnection (line:100) - Waiting for process...
+ - 12:26:46 DEBUG sh.calaba.utils.DefaultAdbConnection (line:108) -  process exit value: 0
+ - 12:26:46 DEBUG sh.calaba.utils.DefaultAdbConnection (line:73) - Process 'wait for calabash-server on mobile device' is about to start: C:\android\platform-tools\adb.exe	-s	emulator-5554	shell	netstat	
+ - 12:26:46 DEBUG sh.calaba.utils.DefaultAdbConnection (line:73) - Process 'about to start CalabashServer' is about to start: C:\android\platform-tools\adb.exe	-s	emulator-5554	shell	am	instrument	-e	target_package	com.sai.samples.views	-e	main_activity	com.sai.samples.views.PickerViewSample	-e class	sh.calaba.instrumentationbackend.InstrumentationBackend	sh.calaba.android.test/sh.calaba.instrumentationbackend.CalabashInstrumentationTestRunner	
+ - 12:26:46 DEBUG sh.calaba.utils.DefaultAdbConnection (line:100) - Waiting for process...
+ - 12:26:46 DEBUG sh.calaba.utils.DefaultAdbConnection (line:108) -  process exit value: 0
+ - 12:26:48 DEBUG sh.calaba.utils.DefaultAdbConnection (line:73) - Process 'wait for calabash-server on mobile device' is about to start: C:\android\platform-tools\adb.exe	-s	emulator-5554	shell	netstat	
+ - 12:26:48 DEBUG sh.calaba.utils.DefaultAdbConnection (line:100) - Waiting for process...
+ - 12:26:48 DEBUG sh.calaba.utils.DefaultAdbConnection (line:108) -  process exit value: 0
+ - 12:26:48 DEBUG sh.calaba.utils.DefaultAdbConnection (line:73) - Process 'about to forward: local port: 34777 to remote port: 7102' is about to start: C:\android\platform-tools\adb.exe	-s	emulator-5554	forward	tcp:34777	tcp:7102	
+ - 12:26:48 DEBUG sh.calaba.utils.DefaultAdbConnection (line:100) - Waiting for process...
+ - 12:26:48 DEBUG sh.calaba.utils.DefaultAdbConnection (line:108) -  process exit value: 0
+ - 12:26:48 DEBUG sh.calaba.driver.server.CalabashProxy (line:201) - Capability initialized: emulator on local port: 34777
+ - 12:26:48 DEBUG sh.calaba.driver.server.connector.impl.CalabashAndroidConnectorImpl (line:182) - Starting Calabash HTTP Connector
+ - 12:26:51 DEBUG sh.calaba.driver.server.command.impl.NewSession (line:55) - New Session Class; session iD: 2e5064ef-a5ec-4563-a919-9a67d9bb8007
+ - 12:26:51 DEBUG sh.calaba.driver.server.command.impl.NewSession (line:64) - Created session ID in response: 2e5064ef-a5ec-4563-a919-9a67d9bb8007
+ - 12:26:51 DEBUG sh.calaba.driver.server.servlet.CalabashServlet (line:85) - CalabashServlet: new session: 2e5064ef-a5ec-4563-a919-9a67d9bb8007
+ - 12:26:51 DEBUG sh.calaba.driver.server.servlet.CalabashServlet (line:73) - Got called with Reuqest URI: /wd/hub/session/2e5064ef-a5ec-4563-a919-9a67d9bb8007/view
+ - 12:26:51 DEBUG sh.calaba.driver.server.servlet.CalabashServlet (line:74) - Got generic command reuqest: VIEW
+ - 12:26:51 DEBUG sh.calaba.driver.server.CalabashProxy (line:271) - received command: {"arguments":["Button01"],"command":"click_on_view_by_id"}
+ - 12:26:51 DEBUG sh.calaba.driver.server.CalabashProxy (line:272) - received sessionId: 2e5064ef-a5ec-4563-a919-9a67d9bb8007
+ - 12:26:53 DEBUG sh.calaba.driver.server.servlet.CalabashServlet (line:73) - Got called with Reuqest URI: /wd/hub/session/2e5064ef-a5ec-4563-a919-9a67d9bb8007/wait
+ - 12:26:53 DEBUG sh.calaba.driver.server.servlet.CalabashServlet (line:74) - Got generic command reuqest: WAIT
+ - 12:26:53 DEBUG sh.calaba.driver.server.CalabashProxy (line:271) - received command: {"arguments":["Done"],"command":"wait_for_text"}
+ - 12:26:53 DEBUG sh.calaba.driver.server.CalabashProxy (line:272) - received sessionId: 2e5064ef-a5ec-4563-a919-9a67d9bb8007
+ - 12:26:55 DEBUG sh.calaba.driver.server.servlet.CalabashServlet (line:73) - Got called with Reuqest URI: /wd/hub/session/2e5064ef-a5ec-4563-a919-9a67d9bb8007
+ - 12:26:55 DEBUG sh.calaba.driver.server.servlet.CalabashServlet (line:74) - Got generic command reuqest: DELETE_SESSION
+ - 12:26:55 DEBUG sh.calaba.driver.server.command.impl.StopSession (line:48) - 
+
+
+---------Session STOP ---------------
+
+
+
+ - 12:27:17 DEBUG sh.calaba.driver.server.CalabashAndroidServer (line:96) - The CalabashAndroidServer is initialized.
+ - 12:27:19 DEBUG sh.calaba.driver.server.servlet.CalabashServlet (line:73) - Got called with Reuqest URI: /wd/hub/session
+ - 12:27:19 DEBUG sh.calaba.driver.server.servlet.CalabashServlet (line:74) - Got generic command reuqest: NEW_SESSION
+ - 12:27:19 DEBUG sh.calaba.driver.server.CalabashProxy (line:101) - reqqested capa: Calabash Capabilities [raw={appBasePackage=com.sai.samples.views, deviceName=emulator, browserName=calabash-android, maxInstances=1, locale=en_EN, appMainActivity=com.sai.samples.views.PickerViewSample, deviceId=emulator-5554, sdkVersion=4.0.3, aut=greenhouse-android}, getLocale()=en_EN, getSDKVersion()=4.0.3, getDeviceName()=emulator, getAppMainActivity()=com.sai.samples.views.PickerViewSample, getAppBasePackage()=com.sai.samples.views, getDeviceId()=emulator-5554]
+ - 12:27:19 DEBUG sh.calaba.utils.DefaultAdbConnection (line:73) - Process 'about to delete the saved app data of the app with the base package: com.sai.samples.views' is about to start: C:\android\platform-tools\adb.exe	-s	emulator-5554	shell	pm	clear	com.sai.samples.views	
+ - 12:27:21 DEBUG sh.calaba.utils.DefaultAdbConnection (line:100) - Waiting for process...
+ - 12:27:21 DEBUG sh.calaba.utils.DefaultAdbConnection (line:108) -  process exit value: 0
+ - 12:27:21 DEBUG sh.calaba.utils.DefaultAdbConnection (line:73) - Process 'wait for calabash-server on mobile device' is about to start: C:\android\platform-tools\adb.exe	-s	emulator-5554	shell	netstat	
+ - 12:27:21 DEBUG sh.calaba.utils.DefaultAdbConnection (line:73) - Process 'about to start CalabashServer' is about to start: C:\android\platform-tools\adb.exe	-s	emulator-5554	shell	am	instrument	-e	target_package	com.sai.samples.views	-e	main_activity	com.sai.samples.views.PickerViewSample	-e class	sh.calaba.instrumentationbackend.InstrumentationBackend	sh.calaba.android.test/sh.calaba.instrumentationbackend.CalabashInstrumentationTestRunner	
+ - 12:28:08 DEBUG sh.calaba.driver.server.CalabashAndroidServer (line:96) - The CalabashAndroidServer is initialized.
+ - 12:28:10 DEBUG sh.calaba.driver.server.servlet.CalabashServlet (line:73) - Got called with Reuqest URI: /wd/hub/session
+ - 12:28:10 DEBUG sh.calaba.driver.server.servlet.CalabashServlet (line:74) - Got generic command reuqest: NEW_SESSION
+ - 12:28:10 DEBUG sh.calaba.driver.server.CalabashProxy (line:101) - reqqested capa: Calabash Capabilities [raw={appBasePackage=com.sai.samples.views, deviceName=emulator, browserName=calabash-android, maxInstances=1, locale=en_EN, appMainActivity=com.sai.samples.views.PickerViewSample, deviceId=emulator-5554, sdkVersion=4.0.3, aut=greenhouse-android}, getLocale()=en_EN, getSDKVersion()=4.0.3, getDeviceName()=emulator, getAppMainActivity()=com.sai.samples.views.PickerViewSample, getAppBasePackage()=com.sai.samples.views, getDeviceId()=emulator-5554]
+ - 12:28:10 DEBUG sh.calaba.utils.DefaultAdbConnection (line:73) - Process 'about to delete the saved app data of the app with the base package: com.sai.samples.views' is about to start: C:\android\platform-tools\adb.exe	-s	emulator-5554	shell	pm	clear	com.sai.samples.views	
+ - 12:28:13 DEBUG sh.calaba.utils.DefaultAdbConnection (line:100) - Waiting for process...
+ - 12:28:13 DEBUG sh.calaba.utils.DefaultAdbConnection (line:108) -  process exit value: 0
+ - 12:28:13 DEBUG sh.calaba.utils.DefaultAdbConnection (line:73) - Process 'wait for calabash-server on mobile device' is about to start: C:\android\platform-tools\adb.exe	-s	emulator-5554	shell	netstat	
+ - 12:28:13 DEBUG sh.calaba.utils.DefaultAdbConnection (line:73) - Process 'about to start CalabashServer' is about to start: C:\android\platform-tools\adb.exe	-s	emulator-5554	shell	am	instrument	-e	target_package	com.sai.samples.views	-e	main_activity	com.sai.samples.views.PickerViewSample	-e class	sh.calaba.instrumentationbackend.InstrumentationBackend	sh.calaba.android.test/sh.calaba.instrumentationbackend.CalabashInstrumentationTestRunner	
+ - 12:28:13 DEBUG sh.calaba.utils.DefaultAdbConnection (line:100) - Waiting for process...
+ - 12:28:13 DEBUG sh.calaba.utils.DefaultAdbConnection (line:108) -  process exit value: 0
+ - 12:28:15 DEBUG sh.calaba.utils.DefaultAdbConnection (line:73) - Process 'wait for calabash-server on mobile device' is about to start: C:\android\platform-tools\adb.exe	-s	emulator-5554	shell	netstat	
+ - 12:28:15 DEBUG sh.calaba.utils.DefaultAdbConnection (line:100) - Waiting for process...
+ - 12:28:15 DEBUG sh.calaba.utils.DefaultAdbConnection (line:108) -  process exit value: 0
+ - 12:28:15 DEBUG sh.calaba.utils.DefaultAdbConnection (line:73) - Process 'about to forward: local port: 34777 to remote port: 7102' is about to start: C:\android\platform-tools\adb.exe	-s	emulator-5554	forward	tcp:34777	tcp:7102	
+ - 12:28:15 DEBUG sh.calaba.utils.DefaultAdbConnection (line:100) - Waiting for process...
+ - 12:28:15 DEBUG sh.calaba.utils.DefaultAdbConnection (line:108) -  process exit value: 0
+ - 12:28:15 DEBUG sh.calaba.driver.server.CalabashProxy (line:201) - Capability initialized: emulator on local port: 34777
+ - 12:28:15 DEBUG sh.calaba.driver.server.connector.impl.CalabashAndroidConnectorImpl (line:182) - Starting Calabash HTTP Connector
+ - 12:28:20 DEBUG sh.calaba.driver.server.command.impl.NewSession (line:55) - New Session Class; session iD: 3688c287-ceaf-4d91-8844-5664c70ed479
+ - 12:28:20 DEBUG sh.calaba.driver.server.command.impl.NewSession (line:64) - Created session ID in response: 3688c287-ceaf-4d91-8844-5664c70ed479
+ - 12:28:20 DEBUG sh.calaba.driver.server.servlet.CalabashServlet (line:85) - CalabashServlet: new session: 3688c287-ceaf-4d91-8844-5664c70ed479
+ - 12:28:20 DEBUG sh.calaba.driver.server.servlet.CalabashServlet (line:73) - Got called with Reuqest URI: /wd/hub/session/3688c287-ceaf-4d91-8844-5664c70ed479/view
+ - 12:28:20 DEBUG sh.calaba.driver.server.servlet.CalabashServlet (line:74) - Got generic command reuqest: VIEW
+ - 12:28:20 DEBUG sh.calaba.driver.server.CalabashProxy (line:271) - received command: {"arguments":["Button01"],"command":"click_on_view_by_id"}
+ - 12:28:20 DEBUG sh.calaba.driver.server.CalabashProxy (line:272) - received sessionId: 3688c287-ceaf-4d91-8844-5664c70ed479
+ - 12:28:22 DEBUG sh.calaba.driver.server.servlet.CalabashServlet (line:73) - Got called with Reuqest URI: /wd/hub/session/3688c287-ceaf-4d91-8844-5664c70ed479/wait
+ - 12:28:22 DEBUG sh.calaba.driver.server.servlet.CalabashServlet (line:74) - Got generic command reuqest: WAIT
+ - 12:28:22 DEBUG sh.calaba.driver.server.CalabashProxy (line:271) - received command: {"arguments":["Done"],"command":"wait_for_text"}
+ - 12:28:22 DEBUG sh.calaba.driver.server.CalabashProxy (line:272) - received sessionId: 3688c287-ceaf-4d91-8844-5664c70ed479
+ - 12:28:24 DEBUG sh.calaba.driver.server.servlet.CalabashServlet (line:73) - Got called with Reuqest URI: /wd/hub/session/3688c287-ceaf-4d91-8844-5664c70ed479
+ - 12:28:24 DEBUG sh.calaba.driver.server.servlet.CalabashServlet (line:74) - Got generic command reuqest: DELETE_SESSION
+ - 12:28:24 DEBUG sh.calaba.driver.server.command.impl.StopSession (line:48) - 
+
+
+---------Session STOP ---------------
+
+
+
+ - 12:28:44 DEBUG sh.calaba.driver.server.CalabashAndroidServer (line:96) - The CalabashAndroidServer is initialized.
+ - 12:29:31 DEBUG sh.calaba.driver.server.CalabashAndroidServer (line:96) - The CalabashAndroidServer is initialized.
+ - 12:29:33 DEBUG sh.calaba.driver.server.servlet.CalabashServlet (line:73) - Got called with Reuqest URI: /wd/hub/session
+ - 12:29:33 DEBUG sh.calaba.driver.server.servlet.CalabashServlet (line:74) - Got generic command reuqest: NEW_SESSION
+ - 12:29:33 DEBUG sh.calaba.driver.server.CalabashProxy (line:101) - reqqested capa: Calabash Capabilities [raw={appBasePackage=com.sai.samples.views, deviceName=emulator, browserName=calabash-android, maxInstances=1, locale=en_EN, appMainActivity=com.sai.samples.views.PickerViewSample, deviceId=emulator-5554, sdkVersion=4.0.3, aut=greenhouse-android}, getLocale()=en_EN, getSDKVersion()=4.0.3, getDeviceName()=emulator, getAppMainActivity()=com.sai.samples.views.PickerViewSample, getAppBasePackage()=com.sai.samples.views, getDeviceId()=emulator-5554]
+ - 12:29:33 DEBUG sh.calaba.utils.DefaultAdbConnection (line:73) - Process 'about to delete the saved app data of the app with the base package: com.sai.samples.views' is about to start: C:\android\platform-tools\adb.exe	-s	emulator-5554	shell	pm	clear	com.sai.samples.views	
+ - 12:29:35 DEBUG sh.calaba.utils.DefaultAdbConnection (line:100) - Waiting for process...
+ - 12:29:35 DEBUG sh.calaba.utils.DefaultAdbConnection (line:108) -  process exit value: 0
+ - 12:29:35 DEBUG sh.calaba.utils.DefaultAdbConnection (line:73) - Process 'wait for calabash-server on mobile device' is about to start: C:\android\platform-tools\adb.exe	-s	emulator-5554	shell	netstat	
+ - 12:29:35 DEBUG sh.calaba.utils.DefaultAdbConnection (line:73) - Process 'about to start CalabashServer' is about to start: C:\android\platform-tools\adb.exe	-s	emulator-5554	shell	am	instrument	-e	target_package	com.sai.samples.views	-e	main_activity	com.sai.samples.views.PickerViewSample	-e class	sh.calaba.instrumentationbackend.InstrumentationBackend	sh.calaba.android.test/sh.calaba.instrumentationbackend.CalabashInstrumentationTestRunner	
+ - 12:29:35 DEBUG sh.calaba.utils.DefaultAdbConnection (line:100) - Waiting for process...
+ - 12:29:35 DEBUG sh.calaba.utils.DefaultAdbConnection (line:108) -  process exit value: 0
+ - 12:29:37 DEBUG sh.calaba.utils.DefaultAdbConnection (line:73) - Process 'wait for calabash-server on mobile device' is about to start: C:\android\platform-tools\adb.exe	-s	emulator-5554	shell	netstat	
+ - 12:29:37 DEBUG sh.calaba.utils.DefaultAdbConnection (line:100) - Waiting for process...
+ - 12:29:37 DEBUG sh.calaba.utils.DefaultAdbConnection (line:108) -  process exit value: 0
+ - 12:29:37 DEBUG sh.calaba.utils.DefaultAdbConnection (line:73) - Process 'about to forward: local port: 34778 to remote port: 7102' is about to start: C:\android\platform-tools\adb.exe	-s	emulator-5554	forward	tcp:34778	tcp:7102	
+ - 12:29:37 DEBUG sh.calaba.utils.DefaultAdbConnection (line:100) - Waiting for process...
+ - 12:29:37 DEBUG sh.calaba.utils.DefaultAdbConnection (line:108) -  process exit value: 0
+ - 12:29:37 DEBUG sh.calaba.driver.server.CalabashProxy (line:201) - Capability initialized: emulator on local port: 34778
+ - 12:29:37 DEBUG sh.calaba.driver.server.connector.impl.CalabashAndroidConnectorImpl (line:182) - Starting Calabash HTTP Connector
+ - 12:29:39 DEBUG sh.calaba.driver.server.command.impl.NewSession (line:55) - New Session Class; session iD: 0cc49ceb-aeb1-438d-ba61-9cef0378c19d
+ - 12:29:39 DEBUG sh.calaba.driver.server.command.impl.NewSession (line:64) - Created session ID in response: 0cc49ceb-aeb1-438d-ba61-9cef0378c19d
+ - 12:29:39 DEBUG sh.calaba.driver.server.servlet.CalabashServlet (line:85) - CalabashServlet: new session: 0cc49ceb-aeb1-438d-ba61-9cef0378c19d
+ - 12:29:39 DEBUG sh.calaba.driver.server.servlet.CalabashServlet (line:73) - Got called with Reuqest URI: /wd/hub/session/0cc49ceb-aeb1-438d-ba61-9cef0378c19d/view
+ - 12:29:39 DEBUG sh.calaba.driver.server.servlet.CalabashServlet (line:74) - Got generic command reuqest: VIEW
+ - 12:29:39 DEBUG sh.calaba.driver.server.CalabashProxy (line:271) - received command: {"arguments":["Button01"],"command":"click_on_view_by_id"}
+ - 12:29:39 DEBUG sh.calaba.driver.server.CalabashProxy (line:272) - received sessionId: 0cc49ceb-aeb1-438d-ba61-9cef0378c19d
+ - 12:29:41 DEBUG sh.calaba.driver.server.servlet.CalabashServlet (line:73) - Got called with Reuqest URI: /wd/hub/session/0cc49ceb-aeb1-438d-ba61-9cef0378c19d/wait
+ - 12:29:41 DEBUG sh.calaba.driver.server.servlet.CalabashServlet (line:74) - Got generic command reuqest: WAIT
+ - 12:29:41 DEBUG sh.calaba.driver.server.CalabashProxy (line:271) - received command: {"arguments":["Done"],"command":"wait_for_text"}
+ - 12:29:41 DEBUG sh.calaba.driver.server.CalabashProxy (line:272) - received sessionId: 0cc49ceb-aeb1-438d-ba61-9cef0378c19d
+ - 12:29:44 DEBUG sh.calaba.driver.server.servlet.CalabashServlet (line:73) - Got called with Reuqest URI: /wd/hub/session/0cc49ceb-aeb1-438d-ba61-9cef0378c19d
+ - 12:29:44 DEBUG sh.calaba.driver.server.servlet.CalabashServlet (line:74) - Got generic command reuqest: DELETE_SESSION
+ - 12:29:44 DEBUG sh.calaba.driver.server.command.impl.StopSession (line:48) - 
+
+
+---------Session STOP ---------------
+
+
+
