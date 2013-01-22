@@ -101,8 +101,8 @@ public class Pickerjavatest {
       
       //This defines what needs to be installed and from where, if set to TRUE
       this.installApksEnabled = true;
-      this.mobileAppPath = " OriginCasual-debug_debug.apk";
-      this.mobileTestAppPath = "9a1bdb8a5d4ec74ff9cb7502168bf041_0.3.8.apk";
+      this.mobileAppPath = "PickerViews.apk";
+      this.mobileTestAppPath = "af4a49f53f08c646fee75d46aff03476_0.3.8.apk";
     }
   }
 }
