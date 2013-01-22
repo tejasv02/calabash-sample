@@ -34,16 +34,6 @@ C:\Users\xxx\workspace\greenhouse-android-test\lib>java -Dfile.encoding=UTF-8 -c
 
 
 PROBLEMS THAT MIGHT NEED TO BE FIXED:
-I will try to put some help on problems face at this blog - http://mytechlifez.blogspot.co.uk/2013/01/calabash-android-driver-java.html
+I will try to put some help on problems, I faced during installation in this blog - http://mytechlifez.blogspot.co.uk/2013/01/calabash-android-driver-java.html
 Hope that  helps
 
-M2_REPO need to be added to eclipse -> windows -> preferences -> java -> buildpath
-M2_REPO - C:\Users\username\.m2\repository
-
-(to solve errors with dx.jar)
-Close eclipse then update tools to Latest anroid sdk tools 21.01 is needed (must be updated from android sdk manager)
-
-When there is this below error resign application using http://www.troido.de/re-sign.jar (this happens when using apk file build on different machine)
-java.lang.SecurityException: Permission Denial: starting instrumentation ComponentInfo{sh.calaba.android.test/sh.calaba.instrumentationbac
-kend.CalabashInstrumentationTestRunner} from pid=549, uid=549 not allowed because package sh.calaba.android.test does not have a signature
- matching the target com.example.pickerviews2
