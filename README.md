@@ -6,7 +6,7 @@ Discussion and help - https://groups.google.com/forum/?fromgroups=#!topic/calaba
 Calabash android installation:
 https://github.com/calabash-driver/calabash-driver/wiki/Setup
 
-This project is cloned from - https://github.com/calabash-driver/gdg-devfest-zrh
+
 
 Installation: 
 Test ng pluing to eclipse
@@ -15,7 +15,7 @@ TestNG - http://beust.com/eclipse
 
 STEPS
 
-1) Clone this repo using git using git clone command.
+1) Clone my project from git using 'git clone https://github.com/tejasv02/calabash-sample.git' command.
 
 2) Set path for - CALABASH_DRIVER_APPS enviroment variable.
 
@@ -31,7 +31,9 @@ C:\Users\xxx\workspace\greenhouse-android-test\lib>java -Dfile.encoding=UTF-8 -c
 
 7) Run Pickerjavatest.java as testng test
 
+Reference:
 
+This project is cloned from - https://github.com/calabash-driver/gdg-devfest-zrh
 
 PROBLEMS THAT MIGHT NEED TO BE FIXED:
 I will try to put some help on problems, I faced during installation in this blog - http://mytechlifez.blogspot.co.uk/2013/01/calabash-android-driver-java.html
