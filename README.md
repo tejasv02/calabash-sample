@@ -23,13 +23,15 @@ STEPS
 
 4) create test server for apk file to be tested using command 'calabash-android build path-to-apk-file' and place the testserver apk into CALABASH_DRIVER_APPS folder.
 
-5) To verify calabash server installation and instrumentation is fine run this command from command line 
+5) Start emulator with AVD(android virtual device)  having SDK greater than or equal to ginger bread (2.3.3)
+
+6) To verify calabash server installation and instrumentation is fine run this command from command line - It must launch application in emulator
 adb shell am instrument -e target_package com.sai.samples.views -e main_activity com.sai.samples.views.PickerViewSample -e class sh.calaba.instrumentationbackend.InstrumentationBackend sh.calaba.android.test/sh.calaba.instrumentationbackend.CalabashInstrumentationTestRunner 
 
-6) RUN SELENIUM GRID:
+7) RUN SELENIUM GRID:
 C:\Users\xxx\workspace\greenhouse-android-test\lib>java -Dfile.encoding=UTF-8 -cp "selenium-server-standalone-2.28.0.jar" org.openqa.grid.selenium.GridLauncher -role hub host 127.0.0.1 -port 4444 & sleep 8
 
-7) Run Pickerjavatest.java as testng test
+8) Run Pickerjavatest.java as testng test
 
 Reference:
 
